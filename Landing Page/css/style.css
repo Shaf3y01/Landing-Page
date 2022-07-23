@@ -1,0 +1,130 @@
+/* 
+-------GLOBAL STYLES
+*/
+:root {
+  --main-color: #ffa502;
+  --white: #f8f9f9;
+  --grey0-font: #dfe4ea;
+  --grey1-section: #e8eaec;
+  --grey2-section: #747d8c;
+  --grey3-section: #2f3542;
+  --default-font-size: 16px;
+}
+/*#f1f2f6
+----------HEADER------
+*/
+header {
+  border-top: 3px solid var(--main-color);
+  background-color: var(--white);
+  padding: 0 10vw;
+  width: 100vw;
+}
+.navbar-brand {
+  font-size: calc(var(--default-font-size) * 2);
+  color: var(--grey3-section);
+}
+.navbar-collapse ul li a {
+  color: var(--grey2-section);
+}
+.navbar-collapse ul li a:hover {
+  color: #2f3542;
+  text-decoration-line: underline;
+}
+.navbar-collapse .active {
+  color: var(--grey3-section);
+}
+.nav-item.btn {
+  padding: 0;
+  background-color: var(--main-color);
+  border-radius: 5px;
+}
+.nav-item.btn a {
+  color: var(--white);
+}
+/*
+-------------SECTION 1-------------
+*/
+section.section-1 {
+  background-image: url(../img/section1-bg.jpg);
+  height: 60vh;
+  width: 100%;
+  position: relative;
+}
+.section-1 .container {
+  width: 20%;
+  position: absolute;
+  top: 15%;
+  left: 25%;
+  color: var(--white);
+  background-color: rgba(45, 45, 45, 0.5);
+  border-left: 2px solid var(--main-color);
+}
+.section-1 p {
+  color: var(--grey0-font);
+}
+/*
+-------------SECTION 2-----------
+*/
+.section-2 {
+  height: 20vh;
+  background-color: var(--grey1-section);
+}
+.section-2 .container {
+  padding: 0 10vw;
+}
+/*
+-----------SECTION 3---------
+*/
+.section-3 i {
+  color: var(--grey2-section);
+}
+.section-3 i:hover {
+  color: var(--white);
+  background-color: var(--main-color);
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+}
+/*
+-----------SECTION 4--------
+*/
+.section-4 {
+  width: 100vw;
+  background-color: var(--grey2-section);
+  height: 50vh;
+}
+.section-4 h4 {
+  color: var(--white);
+}
+.section-4 .container {
+  width: 50%;
+}
+.section-4 i {
+  color: var(--main-color);
+  margin-right: 5px;
+}
+/*
+------------SECTION 5------
+*/
+.section-5 {
+  width: 100vw;
+  height: 15vh;
+  background-color: var(--grey3-section);
+}
+.section-5 .container {
+  width: 70%;
+  color: var(--grey2-section);
+}
+/*
+---------SECTION 6--------
+*/
+.section-6 {
+  width: 100vw;
+  height: 8vh;
+  background-color: rgb(32, 32, 32);
+}
+.section-6 .logo {
+  font-size: 32px;
+  color: var(--white);
+}

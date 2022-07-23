@@ -1,0 +1,1 @@
+My first ever project using some bootstrap. First time I ever tried making something so don't be so harsh on me :)
